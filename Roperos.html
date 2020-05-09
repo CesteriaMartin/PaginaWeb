@@ -7,7 +7,6 @@
 		<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.css">
 		<script src="script/jQueryv341.min.js"></script>
 		<script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
-    <script src="script/roperos.js"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg bg-danger">
@@ -48,6 +47,24 @@
       <div class="column" id ="columna3" style="flex: 25%; max-width: 25%; padding: 0 4px;"></div>
       <div class="column" id ="columna4" style="flex: 25%; max-width: 25%; padding: 0 4px;"></div>
     </div>
+	    <script>
+	    var  cadenaHTML1="";
+          var  cadenaHTML2="";
+          var  cadenaHTML3="";
+          var  cadenaHTML4="";
+                cadenaHTML1 = cadenaHTML1 + '<img src="imagenes/roperos/' + 1 + '.jpg" style="margin-top: 8px; vertical-align: middle;width: 100%;">';
+                cadenaHTML2 = cadenaHTML2 + '<img src="imagenes/roperos/' + 2 + '.jpg" style="margin-top: 8px; vertical-align: middle;width: 100%;">';
+                cadenaHTML3 = cadenaHTML3 + '<img src="imagenes/roperos/' + 3 + '.jpg" style="margin-top: 8px; vertical-align: middle;width: 100%;">';
+                cadenaHTML4 = cadenaHTML4 + '<img src="imagenes/roperos/' + 4 + '.jpg" style="margin-top: 8px; vertical-align: middle;width: 100%;">';
+                cadenaHTML1 = cadenaHTML1 + '<img src="imagenes/roperos/' + 5 + '.jpg" style="margin-top: 8px; vertical-align: middle;width: 100%;">';
+                cadenaHTML2 = cadenaHTML2 + '<img src="imagenes/roperos/' + 6 + '.jpg" style="margin-top: 8px; vertical-align: middle;width: 100%;">';
+                cadenaHTML3 = cadenaHTML3 + '<img src="imagenes/roperos/' + 7 + '.jpg" style="margin-top: 8px; vertical-align: middle;width: 100%;">';
+                cadenaHTML4 = cadenaHTML4 + '<img src="imagenes/roperos/' + 8 + '.jpg" style="margin-top: 8px; vertical-align: middle;width: 100%;">';
+          document.getElementById('columna1').innerHTML = cadenaHTML1;
+          document.getElementById('columna2').innerHTML = cadenaHTML2;
+          document.getElementById('columna3').innerHTML = cadenaHTML3;
+          document.getElementById('columna4').innerHTML = cadenaHTML4;
+	    </script>
       </div>
 
     <footer class="page-footer font-small stylish-color-gray pt-4" style="background-color:#f8f9f9;">
